@@ -1,0 +1,13 @@
+# STRAT Model Hyperparameters
+hidden_size: 64                 # (int) Number of features in the hidden state.
+num_layers: 2                   # (int) Number of STRAT layers.
+dropout_prob: 0.5               # (float) Standard dropout rate.
+loss_type: 'CE'                 # (str) Type of loss function. Range in ['BPR', 'CE'].
+
+# Sparsity of structured DCT modes.
+lambda_freq_init: 0.1
+# Sparsity of localized interaction innovations.
+lambda_time_init: 0.2
+laplacian_mix_init: 0.3
+laplacian_tau_init: 2.0
+routing_strength: 1.0

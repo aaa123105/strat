@@ -1,0 +1,5 @@
+lambda_freq_init choice [0.02, 0.05, 0.1, 0.2, 0.4]
+lambda_time_init choice [0.01, 0.03, 0.05, 0.1, 0.2]
+routing_strength choice [0.1, 0.25, 0.5, 0.75, 1.0]
+laplacian_tau_init choice [0.05, 0.2, 0.5, 1.0, 2.0]
+laplacian_mix_init choice [0.01, 0.05, 0.1, 0.3, 0.5]
